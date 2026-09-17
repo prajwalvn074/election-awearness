@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #eef3f8;
+    color: #222;
+}
+
+header {
+    background: #1d3557;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 34px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    margin-top: 22px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.card {
+    background: white;
+    padding: 28px;
+    margin: 22px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+}
+
+.card h2 {
+    color: #1d3557;
+    margin-top: 0;
+}
+
+.hero {
+    text-align: center;
+    background: #dceaf7;
+}
+
+.hero h2 {
+    font-size: 28px;
+}
+
+.main-btn {
+    display: inline-block;
+    background: #1d3557;
+    color: white;
+    text-decoration: none;
+    padding: 13px 22px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.main-btn:hover {
+    background: #457b9d;
+}
+
+.step {
+    border-left: 5px solid #457b9d;
+    padding: 10px 18px;
+    margin: 15px 0;
+    background: #f5f8fb;
+    border-radius: 6px;
+}
+
+.step h3 {
+    margin: 0 0 7px;
+    color: #1d3557;
+}
+
+li {
+    margin: 12px 0;
+}
+
+button {
+    background: #1d3557;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #457b9d;
+}
+
+#message,
+#quizResult {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #1d3557;
+    color: white;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 5px;
+}
